@@ -1,5 +1,10 @@
 {
   "devDependencies": {
     "lerna": "^2.0.0-rc.5"
+  },
+  "scripts": {
+    "get-datastore": "git clone https://github.com/photusenigma/lerna-multi-repo-lib-datastore.git framework/cf-datastore",
+    "get-common-components": "git clone https://github.com/photusenigma/lerna-multi-repo-lib-common-components.git framework/cf-common-components",
+    "get-git-repos": "npm run get-datastore && npm run get-common-components"
   }
 }

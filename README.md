@@ -1,0 +1,2 @@
+# Example Lerna Multi-Project front-end solution
+A front-end solution made up of multiple projects, split across multi-repos, with interdependencies, and versioning/dependencies managed with a combination of Lerna, npm, and Webpack.
